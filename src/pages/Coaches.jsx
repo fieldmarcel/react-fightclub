@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import img from "../assets/5.jpg";
-import Coachdetail from "../components/coachdetail";
+import Coachdetail from "../components/Coachdetail";
 import Titan from "../components/Titan";
 
 const Coaches = () => {
