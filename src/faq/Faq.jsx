@@ -24,7 +24,7 @@ const Faq = () => {
         <div>
           <h2 className="sm:text-4xl text-xl font-thin text-white sm:mb-4">General Questions<span><ArrowForwardOutline
   color={'#fde047'} 
-  
+  className="hidden sm:block"
   height="50px"
   width="250px"
 /></span></h2>

@@ -12,7 +12,7 @@ const Navbar = () => {
   let location = useLocation();
 
   React.useEffect(() => {
-    // Google Analytics
+    
     console.log(location.pathname);
   }, [location]);
   return (

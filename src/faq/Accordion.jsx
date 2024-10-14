@@ -16,7 +16,7 @@ const Accordion = ({ questions, answers }) => {
           {questions}
         </h3>
       </div>
-    {show &&  <p className="text-gray-300">{answers}</p>
+    {show &&  <p className="sm:ml-14 ml-10 text-yellow-300 text-lg">{answers}</p>
   }  
 
     </div> 
