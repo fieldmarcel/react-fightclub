@@ -16,11 +16,11 @@ module.exports = {
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
-        '.text-stroke': {
-          '-webkit-text-stroke': '1px #000', // black stroke
+        '.text-stroke-1': {
+          '-webkit-text-stroke': '1px #ffff', // black stroke
         },
         '.text-stroke-2': {
-          '-webkit-text-stroke': '2px #000', // 2px stroke width
+          '-webkit-text-stroke': '1px #000', // 2px stroke width
         },
         '.text-stroke-yellow': {
           '-webkit-text-stroke-color': '#fbbf24',

@@ -14,8 +14,8 @@ const Faq = () => {
       <div className="sm:w-1/3 sm:pr-10 sm:h-[80vh] h-[40vh] flex flex-col justify-center items-center">
   
         <div className="mb-4">
-        <h1 className="sm:text-8xl text-5xl font-bold text-transparent text-stroke-2 text-stroke-yellow sm:mb-4">
-  Questions<span className="text-transparent text-stroke-2 text-stroke-white">?</span>
+        <h1 className="sm:text-8xl text-5xl sm:font-bold text-transparent sm:text-stroke-2 text-stroke-2 text-stroke-yellow sm:mb-4">
+  Questions<span className="text-transparent text-stroke-2 text-stroke-yellow">?</span>
 </h1>
 
          
