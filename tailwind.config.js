@@ -13,5 +13,25 @@ module.exports = {
       
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.text-stroke': {
+          '-webkit-text-stroke': '1px #000', // black stroke
+        },
+        '.text-stroke-2': {
+          '-webkit-text-stroke': '2px #000', // 2px stroke width
+        },
+        '.text-stroke-yellow': {
+          '-webkit-text-stroke-color': '#fbbf24',
+          // '-webkit-text-stroke-color': '#7e1212',
+
+        },
+        '.text-transparent': {
+          color: 'transparent', // Makes the text itself transparent
+        },
+      };
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 };
