@@ -33,6 +33,7 @@ const Home = () => {
         <div className="home flex flex-col sm:flex-row sm:pt-[210px] pt-[30px] gap-8 sm:justify-evenly items-center bg-gradient-to-b from-black via-gray-900 to-black text-white">
 
           <div className="text-center sm:text-left sm:w-[50vw] space-y-3">
+            
             <motion.h1 
             variants= {container(0.8)}
             initial ="hidden"

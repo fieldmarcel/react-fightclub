@@ -57,7 +57,7 @@ transition={{duration:2}}
     <div className="flex flex-col sm:flex-row justify-between items-center bg-white/10 backdrop-blur-lg rounded-xl sm:rounded-full mt-12 p-6 sm:py-10 sm:px-12 shadow-md mx-auto sm:max-w-5xl">
       {/* Years of Experience */}
       <div className="flex flex-col items-center text-center mb-6 sm:mb-0 sm:w-1/3">
-      <p className=" countup text-lg sm:text-3xl" style={{ WebkitTextStroke: '0.015em #fff', color: 'transparent' }}>
+      <p className=" countup text-lg sm:text-3xl">
   Years of Experience
 </p>
         <div className="text-3xl  sm:text-5xl font-light text-white">
